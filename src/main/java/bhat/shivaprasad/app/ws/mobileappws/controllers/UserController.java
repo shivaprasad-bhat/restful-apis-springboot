@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
  * @author shivaprasad-bhat
  */
 @RestController
-@RequestMapping("user")            //http://loalhost:8080/users
+@RequestMapping("api/v1/user")            //http://loalhost:8080/users
 public class UserController {
 
     @GetMapping
