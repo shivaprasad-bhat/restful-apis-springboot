@@ -1,4 +1,4 @@
-package bhat.shivaprasad.app.ws.ui.controllers;
+package bhat.shivaprasad.app.ws.mobileappws.controllers;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
  * @author shivaprasad-bhat
  */
 @RestController
-@RequestMapping("/api/v1/users")            //http://loalhost:8080//api/v1/users
+@RequestMapping("user")            //http://loalhost:8080/users
 public class UserController {
 
     @GetMapping
