@@ -1,4 +1,6 @@
 package bhat.shivaprasad.app.ws.mobileappws.controllers;
+import bhat.shivaprasad.app.ws.mobileappws.model.requests.UserDetailsModel;
+import bhat.shivaprasad.app.ws.mobileappws.model.responses.UserRest;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -15,8 +17,8 @@ public class UserController {
     }
 
     @PostMapping
-    public String createUser() {
-        return "POST createUser() was called";
+    public UserRest createUser(@RequestBody UserDetailsModel userDetailsModel) {
+        return null;
     }
 
     @PutMapping
